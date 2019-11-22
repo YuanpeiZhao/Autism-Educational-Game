@@ -1,8 +1,6 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp-Editor.dll:
-    - Fungus.EditorUtils.BlockEditor
-    - Fungus.EditorUtils.BlockInspector
     - Fungus.EditorUtils.FlowchartWindow
     - Fungus.EditorUtils.FungusEditorResources
     Assembly-CSharp.dll:
@@ -12,7 +10,6 @@ ScriptsOnlyBuild:
     - Fungus.CallMethod
     - Fungus.Character
     - Fungus.Clickable2D
-    - Fungus.CommandCopyBuffer
     - Fungus.CustomTag
     - Fungus.DialogInput
     - Fungus.Draggable2D
@@ -281,69 +278,69 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11026}
     - Class: 114
-      Script: {instanceID: 11140}
+      Script: {instanceID: 11124}
     - Class: 114
-      Script: {instanceID: 11156}
+      Script: {instanceID: 11142}
     - Class: 114
-      Script: {instanceID: 11206}
+      Script: {instanceID: 11158}
     - Class: 114
-      Script: {instanceID: 11216}
+      Script: {instanceID: 11208}
     - Class: 114
-      Script: {instanceID: 11222}
+      Script: {instanceID: 11218}
     - Class: 114
-      Script: {instanceID: 11298}
+      Script: {instanceID: 11224}
     - Class: 114
-      Script: {instanceID: 11324}
+      Script: {instanceID: 11300}
     - Class: 114
-      Script: {instanceID: 11374}
+      Script: {instanceID: 11326}
     - Class: 114
-      Script: {instanceID: 11480}
+      Script: {instanceID: 11376}
     - Class: 114
-      Script: {instanceID: 11514}
+      Script: {instanceID: 11482}
     - Class: 114
-      Script: {instanceID: 11564}
+      Script: {instanceID: 11516}
     - Class: 114
-      Script: {instanceID: 11596}
+      Script: {instanceID: 11566}
     - Class: 114
-      Script: {instanceID: 11660}
+      Script: {instanceID: 11598}
     - Class: 114
-      Script: {instanceID: 11698}
+      Script: {instanceID: 11662}
     - Class: 114
-      Script: {instanceID: 11708}
+      Script: {instanceID: 11700}
     - Class: 114
-      Script: {instanceID: 11738}
+      Script: {instanceID: 11710}
     - Class: 114
-      Script: {instanceID: 11758}
+      Script: {instanceID: 11740}
     - Class: 114
-      Script: {instanceID: 11864}
+      Script: {instanceID: 11760}
     - Class: 114
       Script: {instanceID: 11866}
     - Class: 114
-      Script: {instanceID: 11884}
+      Script: {instanceID: 11868}
     - Class: 114
-      Script: {instanceID: 11900}
+      Script: {instanceID: 11886}
     - Class: 114
-      Script: {instanceID: 11904}
+      Script: {instanceID: 11902}
     - Class: 114
-      Script: {instanceID: 11990}
+      Script: {instanceID: 11906}
     - Class: 114
-      Script: {instanceID: 12062}
+      Script: {instanceID: 11992}
     - Class: 114
-      Script: {instanceID: 12068}
+      Script: {instanceID: 12064}
     - Class: 114
-      Script: {instanceID: 12098}
+      Script: {instanceID: 12070}
     - Class: 114
-      Script: {instanceID: 12102}
+      Script: {instanceID: 12100}
     - Class: 114
-      Script: {instanceID: 12146}
+      Script: {instanceID: 12104}
     - Class: 114
-      Script: {instanceID: 12176}
+      Script: {instanceID: 12148}
     - Class: 114
-      Script: {instanceID: 12192}
+      Script: {instanceID: 12178}
     - Class: 114
-      Script: {instanceID: 12206}
+      Script: {instanceID: 12194}
     - Class: 114
-      Script: {instanceID: 47114}
+      Script: {instanceID: 12208}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1997,6 +1994,12 @@ ScriptsOnlyBuild:
     className: WaitFrames
   - hash:
       serializedVersion: 2
+      Hash: bd36636b64e5658cb5a211fc50958720
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UIManager
+  - hash:
+      serializedVersion: 2
       Hash: b34a7a4d73106ff9564776ab56ec2bdc
     assemblyName: Assembly-CSharp.dll
     namespaceName: Fungus
@@ -2685,12 +2688,6 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: Fungus
     className: MoveLean
-  - hash:
-      serializedVersion: 2
-      Hash: bd36636b64e5658cb5a211fc50958720
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: UIManager
   platform: 19
   scenePathNames:
   - Assets/Scenes/chapter1.unity

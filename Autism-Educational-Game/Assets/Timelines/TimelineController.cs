@@ -65,13 +65,32 @@ public class TimelineController : MonoBehaviour
 
     public void EndGame()
     {
-        WriteResult(timeUsed.ToString() + ',' + wrongAns.ToString());
+        int hasAnimation;
+        if (GetPlayTimes() % 2 == 1) 
+            hasAnimation = 0;
+        else 
+            hasAnimation = 1;
+
+        WriteResult(timeUsed.ToString() + ',' + wrongAns.ToString() + ',' + hasAnimation.ToString());
         Application.Quit();
     }
 
     public void AddWrongAns()
     {
         wrongAns++;
+    }
+
+    public int GetPlayTimes()
+    {
+        StreamReader input = File.OpenText(Path.Combine(
+                Application.streamingAssetsPath, "ConfigurationData.csv"));
+
+        input.ReadLine();
+        string values = input.ReadLine();
+
+        input.Close();
+
+        return int.Parse(values);
     }
 
     public void WriteResult(string result)
