@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Playables;
+using System.IO;
+using System;
 
 public class TimelineController : MonoBehaviour
 {
@@ -27,6 +29,7 @@ public class TimelineController : MonoBehaviour
     private void Start()
     {
         progressBar = GameObject.FindGameObjectWithTag("ProgressBar");
+        wrongAns = 0;
     }
 
     private void Update()
@@ -58,5 +61,26 @@ public class TimelineController : MonoBehaviour
     public void EndTimer()
     {
         timeUsed = Time.time - startTime;
+    }
+
+    public void EndGame()
+    {
+        WriteResult(timeUsed.ToString() + ',' + wrongAns.ToString());
+        Application.Quit();
+    }
+
+    public void AddWrongAns()
+    {
+        wrongAns++;
+    }
+
+    public void WriteResult(string result)
+    {
+        StreamWriter sc = new StreamWriter(Path.Combine(
+                Application.streamingAssetsPath, "Result.csv"), true);
+
+        sc.WriteLine(result);
+
+        sc.Close();
     }
 }

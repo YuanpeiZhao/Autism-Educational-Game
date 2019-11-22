@@ -7,6 +7,7 @@ ScriptsOnlyBuild:
     - Fungus.EditorUtils.FungusEditorResources
     Assembly-CSharp.dll:
     - Fungus.Block
+    - Fungus.ButtonClicked
     - Fungus.Call
     - Fungus.CallMethod
     - Fungus.Character
@@ -17,6 +18,7 @@ ScriptsOnlyBuild:
     - Fungus.Draggable2D
     - Fungus.Else
     - Fungus.ElseIf
+    - Fungus.End
     - Fungus.ExecuteHandler
     - Fungus.FloatVariable
     - Fungus.Flowchart
@@ -51,6 +53,7 @@ ScriptsOnlyBuild:
     - PlayerAnim
     - ProgressBar
     - TimelineController
+    - UIManager
     - UnityEngine.PostProcessing.PostProcessingBehaviour
     - UnityEngine.PostProcessing.PostProcessingProfile
     Cinemachine.dll:
@@ -154,6 +157,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9490}
     - Class: 114
+      Script: {instanceID: 9638}
+    - Class: 114
       Script: {instanceID: 9640}
     - Class: 114
       Script: {instanceID: 9642}
@@ -186,153 +191,159 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9760}
     - Class: 114
-      Script: {instanceID: 9806}
-    - Class: 114
       Script: {instanceID: 9808}
     - Class: 114
       Script: {instanceID: 9810}
     - Class: 114
-      Script: {instanceID: 9814}
+      Script: {instanceID: 9812}
     - Class: 114
       Script: {instanceID: 9816}
     - Class: 114
-      Script: {instanceID: 9820}
+      Script: {instanceID: 9818}
     - Class: 114
-      Script: {instanceID: 9824}
+      Script: {instanceID: 9822}
     - Class: 114
-      Script: {instanceID: 9828}
+      Script: {instanceID: 9826}
     - Class: 114
-      Script: {instanceID: 9832}
+      Script: {instanceID: 9830}
     - Class: 114
-      Script: {instanceID: 9858}
+      Script: {instanceID: 9834}
     - Class: 114
-      Script: {instanceID: 9862}
+      Script: {instanceID: 9860}
     - Class: 114
       Script: {instanceID: 9864}
     - Class: 114
       Script: {instanceID: 9866}
     - Class: 114
-      Script: {instanceID: 9872}
+      Script: {instanceID: 9868}
     - Class: 114
-      Script: {instanceID: 9876}
+      Script: {instanceID: 9874}
     - Class: 114
-      Script: {instanceID: 9900}
+      Script: {instanceID: 9878}
     - Class: 114
-      Script: {instanceID: 9924}
+      Script: {instanceID: 9902}
     - Class: 114
-      Script: {instanceID: 9932}
+      Script: {instanceID: 9926}
     - Class: 114
-      Script: {instanceID: 9952}
+      Script: {instanceID: 9934}
     - Class: 114
-      Script: {instanceID: 9962}
+      Script: {instanceID: 9954}
     - Class: 114
-      Script: {instanceID: 9988}
+      Script: {instanceID: 9964}
     - Class: 114
-      Script: {instanceID: 10022}
+      Script: {instanceID: 9990}
     - Class: 114
-      Script: {instanceID: 10056}
+      Script: {instanceID: 10024}
     - Class: 114
-      Script: {instanceID: 10134}
+      Script: {instanceID: 10058}
     - Class: 114
-      Script: {instanceID: 10144}
+      Script: {instanceID: 10066}
     - Class: 114
-      Script: {instanceID: 10304}
+      Script: {instanceID: 10136}
     - Class: 114
-      Script: {instanceID: 10338}
+      Script: {instanceID: 10146}
     - Class: 114
-      Script: {instanceID: 10356}
+      Script: {instanceID: 10208}
+    - Class: 114
+      Script: {instanceID: 10308}
+    - Class: 114
+      Script: {instanceID: 10342}
     - Class: 114
       Script: {instanceID: 10360}
     - Class: 114
-      Script: {instanceID: 10422}
+      Script: {instanceID: 10364}
     - Class: 114
-      Script: {instanceID: 10460}
+      Script: {instanceID: 10426}
     - Class: 114
-      Script: {instanceID: 10522}
+      Script: {instanceID: 10440}
     - Class: 114
-      Script: {instanceID: 10524}
+      Script: {instanceID: 10464}
     - Class: 114
-      Script: {instanceID: 10536}
+      Script: {instanceID: 10526}
     - Class: 114
-      Script: {instanceID: 10558}
+      Script: {instanceID: 10528}
     - Class: 114
-      Script: {instanceID: 10618}
+      Script: {instanceID: 10540}
     - Class: 114
-      Script: {instanceID: 10648}
+      Script: {instanceID: 10562}
     - Class: 114
-      Script: {instanceID: 10794}
+      Script: {instanceID: 10622}
     - Class: 114
-      Script: {instanceID: 10842}
+      Script: {instanceID: 10652}
     - Class: 114
-      Script: {instanceID: 10908}
+      Script: {instanceID: 10798}
     - Class: 114
-      Script: {instanceID: 11002}
+      Script: {instanceID: 10846}
     - Class: 114
-      Script: {instanceID: 11022}
+      Script: {instanceID: 10912}
     - Class: 114
-      Script: {instanceID: 11136}
+      Script: {instanceID: 11006}
     - Class: 114
-      Script: {instanceID: 11152}
+      Script: {instanceID: 11026}
     - Class: 114
-      Script: {instanceID: 11202}
+      Script: {instanceID: 11140}
     - Class: 114
-      Script: {instanceID: 11212}
+      Script: {instanceID: 11156}
     - Class: 114
-      Script: {instanceID: 11218}
+      Script: {instanceID: 11206}
     - Class: 114
-      Script: {instanceID: 11294}
+      Script: {instanceID: 11216}
     - Class: 114
-      Script: {instanceID: 11320}
+      Script: {instanceID: 11222}
     - Class: 114
-      Script: {instanceID: 11370}
+      Script: {instanceID: 11298}
     - Class: 114
-      Script: {instanceID: 11476}
+      Script: {instanceID: 11324}
     - Class: 114
-      Script: {instanceID: 11510}
+      Script: {instanceID: 11374}
     - Class: 114
-      Script: {instanceID: 11560}
+      Script: {instanceID: 11480}
     - Class: 114
-      Script: {instanceID: 11592}
+      Script: {instanceID: 11514}
     - Class: 114
-      Script: {instanceID: 11656}
+      Script: {instanceID: 11564}
     - Class: 114
-      Script: {instanceID: 11692}
+      Script: {instanceID: 11596}
     - Class: 114
-      Script: {instanceID: 11702}
+      Script: {instanceID: 11660}
     - Class: 114
-      Script: {instanceID: 11732}
+      Script: {instanceID: 11698}
     - Class: 114
-      Script: {instanceID: 11752}
+      Script: {instanceID: 11708}
     - Class: 114
-      Script: {instanceID: 11858}
+      Script: {instanceID: 11738}
     - Class: 114
-      Script: {instanceID: 11860}
+      Script: {instanceID: 11758}
     - Class: 114
-      Script: {instanceID: 11878}
+      Script: {instanceID: 11864}
     - Class: 114
-      Script: {instanceID: 11894}
+      Script: {instanceID: 11866}
     - Class: 114
-      Script: {instanceID: 11898}
+      Script: {instanceID: 11884}
     - Class: 114
-      Script: {instanceID: 11984}
+      Script: {instanceID: 11900}
     - Class: 114
-      Script: {instanceID: 12056}
+      Script: {instanceID: 11904}
+    - Class: 114
+      Script: {instanceID: 11990}
     - Class: 114
       Script: {instanceID: 12062}
     - Class: 114
-      Script: {instanceID: 12092}
+      Script: {instanceID: 12068}
     - Class: 114
-      Script: {instanceID: 12096}
+      Script: {instanceID: 12098}
     - Class: 114
-      Script: {instanceID: 12140}
+      Script: {instanceID: 12102}
     - Class: 114
-      Script: {instanceID: 12170}
+      Script: {instanceID: 12146}
     - Class: 114
-      Script: {instanceID: 12186}
+      Script: {instanceID: 12176}
     - Class: 114
-      Script: {instanceID: 12200}
+      Script: {instanceID: 12192}
     - Class: 114
-      Script: {instanceID: 33356}
+      Script: {instanceID: 12206}
+    - Class: 114
+      Script: {instanceID: 47114}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -822,6 +833,12 @@ ScriptsOnlyBuild:
     className: SetAnimBool
   - hash:
       serializedVersion: 2
+      Hash: 735147f2ee7307da7bb94c8c762d823e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ProgressBarCircle
+  - hash:
+      serializedVersion: 2
       Hash: 7d2142ddea3e56a6ed85c6a71dd5cf60
     assemblyName: Assembly-CSharp.dll
     namespaceName: Fungus
@@ -1212,7 +1229,7 @@ ScriptsOnlyBuild:
     className: FadeUI
   - hash:
       serializedVersion: 2
-      Hash: a968e4a2e93e27c30a21e2bdeec3a785
+      Hash: 79be25f9b146ada33b7b659aaabf6614
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: TimelineController
@@ -1258,6 +1275,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: Fungus
     className: MaterialVariable
+  - hash:
+      serializedVersion: 2
+      Hash: babcddaca0e075af60191ddd2b395059
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ProgressBar
   - hash:
       serializedVersion: 2
       Hash: b8bac61dd86b5c6968d280f28cbfba60
@@ -2292,6 +2315,12 @@ ScriptsOnlyBuild:
     className: LuaEnvironment
   - hash:
       serializedVersion: 2
+      Hash: 049da38e04b44d779517153fb9e33896
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Demo
+  - hash:
+      serializedVersion: 2
       Hash: 6ff1c52123c50b3d73f35cd0e2e65dfd
     assemblyName: Cinemachine.dll
     namespaceName: Cinemachine
@@ -2658,23 +2687,11 @@ ScriptsOnlyBuild:
     className: MoveLean
   - hash:
       serializedVersion: 2
-      Hash: 735147f2ee7307da7bb94c8c762d823e
+      Hash: bd36636b64e5658cb5a211fc50958720
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: ProgressBarCircle
-  - hash:
-      serializedVersion: 2
-      Hash: babcddaca0e075af60191ddd2b395059
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ProgressBar
-  - hash:
-      serializedVersion: 2
-      Hash: 049da38e04b44d779517153fb9e33896
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Demo
+    className: UIManager
   platform: 19
   scenePathNames:
   - Assets/Scenes/chapter1.unity
-  playerPath: D:/OneDrive - purdue.edu/Projects/Unity/Autism-Educational-Game/Autism-Educational-Game.exe
+  playerPath: D:/Git/Autism-Educational-Game/Autism-Educational-Game.exe
